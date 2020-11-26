@@ -8,13 +8,15 @@ The bot works by providing a message on a contributor's first issue, pull reques
 
 1. [Install the bot](https://github.com/apps/welcome) on the intended repositories. The plugin requires the following Permissions and Events:
 
+<!--- Installation of the bot, pull requests and issues  --->
 - Pull requests: Read & Write
 - Issues: Read & Write
 
 ## Creating the config
 
+<!---  --->
 The bot is designed to create messages when a user creates an issue, open a pull request, or merges a pull request. These messages are based on a config file in your repository. You will need to create a config file with the messages you want **welcome** to use. Your `.github/config.yml` should look something like this:
-
+__
 ```
 # Configuration for welcome - https://github.com/behaviorbot/welcome
 
@@ -35,4 +37,4 @@ firstPRMergeComment: >
 
 ### Example Messages
 
-CONFIGS PLACEHOLDER
+Getting immersed within github markdown system. ICS4U student at AY Jackson Secondary School.
